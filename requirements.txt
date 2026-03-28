@@ -1,0 +1,31 @@
+# =============================================================================
+# CodeCraftHub — Python Dependencies
+# =============================================================================
+# Install everything at once with:
+#   pip install -r requirements.txt
+#
+# To upgrade all packages to their latest compatible versions:
+#   pip install -r requirements.txt --upgrade
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Core — required to run the API
+# -----------------------------------------------------------------------------
+
+# Flask: the web framework that powers all our routes and HTTP handling
+flask==3.1.0
+
+# -----------------------------------------------------------------------------
+# Testing — required to run run_tests.py
+# -----------------------------------------------------------------------------
+
+# requests: the HTTP client library used in run_tests.py to call the API
+requests==2.32.3
+
+# -----------------------------------------------------------------------------
+# Development — optional but highly recommended
+# -----------------------------------------------------------------------------
+
+# python-dotenv: lets you store config (e.g. port, debug mode) in a .env file
+# Useful when you're ready to move beyond hardcoded settings in app.py
+python-dotenv==1.0.1

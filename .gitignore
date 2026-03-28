@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Data file — each developer gets their own local copy
+courses.json
+
+# Real environment variables — never commit this
+.env
+
+# Mac system file
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
